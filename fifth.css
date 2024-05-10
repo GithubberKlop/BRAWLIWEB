@@ -1,0 +1,120 @@
+.everything{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    height: 145vh;
+    width: 100%;
+    background-color: rgb(53, 79, 128);
+    text-align: center;
+}
+h1{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+.squad{
+    height: 350px;
+}
+.text0{
+font-size: 22px;
+color: khaki;
+width: 50vw;
+text-align: center;
+position: absolute;
+left: 25vw;
+}
+h2{
+    font-size: 28px;
+    color: wheat;
+}
+a{
+    color: chocolate;
+}
+.app{
+    display: block;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+h3{
+    color: darksalmon;
+    font-size: 28px;
+}
+span{
+    color: wheat;
+    font-size: 40px;
+    animation: data infinite 5s;
+} 
+
+@keyframes data {
+    0%{
+        color: darksalmon;
+    }
+    10%{
+        color: darkorange;
+    }
+    20%{
+        color: chocolate;
+    }
+    30%{
+        color: gold;
+    }
+    40%{
+        color: greenyellow;
+    }
+    50%{
+        color: green;
+    }
+    60%{
+        color: lightpink;
+    }
+    70%{
+        color: aqua;
+    }
+    80%{
+        color: darkcyan;
+    }
+    90%{
+        color: blue;
+    }
+    100%{
+        color: blueviolet;
+    }
+}
+.greenye{
+    background-color: rgb(82, 131, 34);
+    text-align: center;
+    height: 200px;
+    width: 320px;
+    font-size: 42px;
+    vertical-align: middle;
+    color: aliceblue;
+    margin-left: 25vw;
+    position: relative;
+}
+.aquar{
+    background-color: aqua;
+    text-align: center;
+    height: 200px;
+    width: 320px;
+    font-size: 42px;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    margin-right: 25vw;
+    position: absolute;
+    bottom: 5vh;
+    left: 62vw;
+}
+.spans{
+    color: rgb(82, 131, 34)
+}
+h6{
+    color: rgb(61, 40, 40);
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media (orientation:portrait) {
+    .everything{
+        height: 250vh;
+        position: relative;
+    }
+}

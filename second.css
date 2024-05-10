@@ -14,7 +14,10 @@ h1{
     background-color: rgb(52, 46, 131)
     
     
+    
 }
+
+
 .logo{
     height: 30vh;
     width: 20vw;
@@ -119,7 +122,8 @@ h2{
     position: absolute ;
     width: 45vw;
     margin: 50px;
-    left: 17vw;
+    left: 6vw;
+    width: 100%;
     
 }
 .cell{
@@ -137,6 +141,8 @@ h2{
     font-size: 55px;
     color: rgb(255, 0, 149);
     animation: casino 1.5s infinite;
+    position: absolute;
+    left: 3vw;
 }
 @keyframes casino {
     0%{
@@ -155,4 +161,24 @@ h2{
         color: rgb(200, 231, 60);
     }
 }
+.support{
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+    width: 250px;
+    background-color: crimson;
+    font-size: 30px;
+    position: absolute;
+    left: 23%;
+}
+@media (orientation:portrait){
+   .everything{
+    position: relative;
+    display: inline-block;
+   }
+   .text4{
+    height: 20vh;
+   }
+}
+
 
